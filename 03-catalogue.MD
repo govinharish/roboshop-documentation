@@ -7,6 +7,8 @@ Install NodeJS, By default NodeJS 10 is available, We would like to enable 18 ve
 
 *you can list modules by using dnf module list*
 
+curl -sL https://rpm.nodesource.com/setup_lts.x | bash
+
 ```
 dnf module disable nodejs -y
 dnf module enable nodejs:18 -y
