@@ -10,6 +10,7 @@ Install NodeJS, By default NodeJS 10 is available, We would like to enable 18 ve
 change to root user and download below setup
 
 sudo su -
+
 curl -sL https://rpm.nodesource.com/setup_lts.x | bash
 
 ```
